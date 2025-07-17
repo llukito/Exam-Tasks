@@ -244,6 +244,6 @@ void runPathSumAllTests() {
 int main() {
 	runCircleAllTests();
 	//runPathSumAllTests();
-	cout << "end" << endl;
+	cout << "end " << endl;
 	return 0;
 }
