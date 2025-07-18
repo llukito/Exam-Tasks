@@ -25,7 +25,7 @@ bool equalsCircle(string s, Circle *c) {
 	if (s.length() != c->length()) {
 		return false;
 	}
-	for (int i=0; i<c->length(); i++) {
+	for (int i=0; i<c->length(); ++i) {
 		if (s[i]-'0' != c->get(i)) {
 			return false;
 		}
