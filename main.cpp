@@ -13,7 +13,7 @@ using namespace std;
 
 void printTestResults(bool passed, int testNum, int& passedCounter) {
 	if (passed) {
-		cout << "test " << testNum << " passed" << endl;
+		cout << "test  " << testNum << " passed" << endl;
 		passedCounter++;
 	}
 	else {
